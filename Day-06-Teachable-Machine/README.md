@@ -20,7 +20,7 @@ I removed the wrong photos and recorded real pen photos for the pen class (19 sa
 ### 3. Testing a notebook it had never seen
 I held up a different notebook (a pink spiral one) that was not in the training data. The model still predicted **99% notebook**.
 
-![New notebook test](new-notebook.png)
+![New notebook test](new_notebook.png)
 
 ## 3 Observations
 1. **Wrong labels teach the model wrong answers.** With mislabeled data, the model confidently called a notebook a pen, and retraining made it even more sure (79% to 100%). The model trusts whatever labels it is given.
