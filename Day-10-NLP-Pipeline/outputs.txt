@@ -1,0 +1,32 @@
+=== 5 QUERY TESTS ===
+
+Query: How do computers learn from data?
+  1. [0.450] Machine learning models learn patterns from data.
+  2. [0.232] Natural language processing helps computers understand text.
+  3. [0.194] Python is a popular programming language for data science.
+
+Query: my pet loves going outside
+  1. [0.535] Dogs are loyal pets and love long walks in the park.
+  2. [0.000] Fresh vegetables and fruits are part of a healthy diet.
+  3. [0.000] The central bank raised rates to control inflation.
+
+Query: economy and inflation news
+  1. [0.291] The stock market fell sharply after the interest rate news.
+  2. [0.261] Investors are worried about inflation and rising prices.
+  3. [0.243] The central bank raised rates to control inflation.
+
+Query: cooking italian food
+  1. [0.408] Pasta with tomato sauce is a classic Italian dish.
+  2. [0.000] Fresh vegetables and fruits are part of a healthy diet.
+  3. [0.000] The central bank raised rates to control inflation.
+
+Query: who won the football game?
+  1. [0.408] Football fans filled the stadium for the championship match.
+  2. [0.000] Fresh vegetables and fruits are part of a healthy diet.
+  3. [0.000] The central bank raised rates to control inflation.
+
+=== EDGE CASES ===
+'': handled -> Query is empty. Please enter some text.
+'a': handled -> Query is a single character. Please enter a longer query.
+'12345 !!! ???': handled -> Query has only numbers/symbols. Please include words.
+'the and of': handled -> Query has no meaningful words after cleaning (only stop words).
