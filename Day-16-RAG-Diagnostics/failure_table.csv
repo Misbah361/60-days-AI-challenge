@@ -1,0 +1,16 @@
+id,mode,query,diagnosis,cause
+Q01,Retrieval failure,Who is the CTO of Veridia Labs?,PASS,Needed facts were retrieved and the answer is correct.
+Q02,Retrieval failure,What time does customer support open and close?,PASS,Needed facts were retrieved and the answer is correct.
+Q03,Retrieval failure,Which languages does Kesar support?,Retrieval failure,"Needed facts missing from retrieved chunks [8, 2, 3]: the fact is split across chunk boundaries (chunk_size=40, overlap=0), so no single chunk contains it."
+Q04,Context window overflow,"Compare the Basic and Pro plans: price, imagery refresh, API access and refund window.",Context window overflow,"All needed facts were retrieved (chunks [6, 4, 3, 5, 2, 7]) but the 100-word budget cut chunk(s) [3, 5, 2, 7]."
+Q05,Context window overflow,"Give me a full summary of Veridia Labs: founding year, headquarters, employees, revenue and second office.",PASS,Needed facts were retrieved and the answer is correct.
+Q06,Context window overflow,"List every support, maintenance and refund detail for Kesar customers.",Retrieval failure,"Needed facts missing from retrieved chunks [2, 3, 8, 4, 5, 6]: the chunks that were returned do not contain the needed facts."
+Q07,Answer-context mismatch,What is the refund window for the annual plan?,Answer-context mismatch,"The topic matched (L2 0.89) but the asked detail is not in the documents, and the model invented 'The refund window for the annual plan is 10 months.' instead of refusing."
+Q08,Answer-context mismatch,How many staff work in the Anantnag office?,Answer-context mismatch,"The topic matched (L2 0.789) but the asked detail is not in the documents, and the model invented '12' instead of refusing."
+Q09,Answer-context mismatch,What discount does the referred friend receive?,Answer-context mismatch,"The referral chunks were retrieved, but the model gave the reward to the referred friend instead of the referrer: an answer-context mismatch."
+Q10,Vague context retrieved,What is Veridia's policy on remote work?,PASS,Correctly refused (best chunk L2 1.094).
+Q11,Vague context retrieved,What is the weather like in Srinagar in spring?,PASS,Correctly refused (best chunk L2 1.629).
+Q12,Vague context retrieved,How does it compare to its competitors?,PASS,Correctly refused (best chunk L2 1.489).
+Q13,"Correct chunk, wrong answer",How many Veridia employees are not engineers?,"Correct chunk, wrong answer","The context had the facts, but the answer 'Based on the provided documents, there is insufficient information to ' lacks ['30']: a reasoning/generation error."
+Q14,"Correct chunk, wrong answer",How many rupees does a Pro customer pay for one year on the annual plan?,"Correct chunk, wrong answer","The context had the facts, but the answer 'A Pro customer pays 1,299 rupees for one year on the annual plan.' lacks ['12990']: a reasoning/generation error."
+Q15,"Correct chunk, wrong answer",How many more rupees per month does the Pro plan cost than the Basic plan?,"Correct chunk, wrong answer","Retrieval was correct, but the answer says Pro costs 800 and then 301 more, a reasoning error my substring check missed."
