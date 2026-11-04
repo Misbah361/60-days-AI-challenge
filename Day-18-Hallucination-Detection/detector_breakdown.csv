@@ -1,0 +1,41 @@
+condition,id,true_label,unsupported_claim,unsupported_items,low_overlap,jaccard,contradiction,no_citation,flags,confidence,predicted_halluc,actual_halluc
+no_context,1,correct,0,[],0,0.267,0,1,1,0.75,False,False
+no_context,2,correct,1,['There'],0,0.208,0,1,2,0.5,True,False
+no_context,3,correct,0,[],0,0.25,0,1,1,0.75,False,False
+no_context,4,hallucinated,1,"['79', 'Jupiter']",0,0.269,0,1,2,0.5,True,True
+no_context,5,correct,1,['November'],1,0.125,0,1,3,0.25,True,False
+no_context,6,correct,1,"['221', '210', 'BCE']",0,0.308,0,1,2,0.5,True,False
+no_context,7,correct,1,"['British', 'August']",1,0.136,0,1,3,0.25,True,False
+no_context,8,correct,1,['Indian'],1,0.129,0,1,3,0.25,True,False
+no_context,9,correct,0,[],0,0.333,0,1,1,0.75,False,False
+no_context,10,correct,1,"['The River Jhelum', 'Kashmir']",0,0.312,0,1,2,0.5,True,False
+no_context,11,correct,1,"['Tanzania', 'Kenya']",0,0.217,0,1,2,0.5,True,False
+no_context,12,correct,0,[],0,0.235,0,1,1,0.75,False,False
+no_context,13,correct,1,"['1989', 'CWI', 'Netherlands']",0,0.2,0,1,2,0.5,True,False
+no_context,14,correct,0,[],0,0.25,0,1,1,0.75,False,False
+no_context,15,hallucinated,1,['Facebook AI Research System'],1,0.136,0,1,3,0.25,True,True
+no_context,16,hallucinated,0,[],0,0.219,0,1,1,0.75,False,True
+no_context,17,hallucinated,1,"['Ralph', 'Cahn', 'Walter Kohn']",1,0.135,0,1,3,0.25,True,True
+no_context,18,hallucinated,1,['109'],0,0.211,0,1,2,0.5,True,True
+no_context,19,hallucinated,1,['1973'],0,0.176,0,1,2,0.5,True,True
+no_context,20,hallucinated,1,"['Ian Goodfellow', 'Yoshua Bengio', 'Aaron Courville']",0,0.156,0,1,2,0.5,True,True
+rag,1,correct,0,[],0,0.25,0,0,0,1.0,False,False
+rag,2,correct,1,['There'],0,0.208,0,0,1,0.75,False,False
+rag,3,correct,0,[],0,0.364,0,0,0,1.0,False,False
+rag,4,correct,0,[],1,0.048,0,0,1,0.75,False,False
+rag,5,correct,0,[],1,0.13,0,0,1,0.75,False,False
+rag,6,correct,0,[],1,0.125,0,0,1,0.75,False,False
+rag,7,correct,0,[],0,0.158,0,0,0,1.0,False,False
+rag,8,correct,0,[],0,0.16,0,0,0,1.0,False,False
+rag,9,correct,0,[],1,0.077,0,0,1,0.75,False,False
+rag,10,correct,1,['The Jhelum River'],0,0.312,0,0,1,0.75,False,False
+rag,11,correct,0,[],0,0.263,0,0,0,1.0,False,False
+rag,12,correct,0,[],1,0.125,0,0,1,0.75,False,False
+rag,13,correct,0,[],1,0.143,0,0,1,0.75,False,False
+rag,14,correct,0,[],0,0.241,0,0,0,1.0,False,False
+rag,15,correct,0,[],0,0.238,0,0,0,1.0,False,False
+rag,16,correct,0,[],0,0.25,0,0,0,1.0,False,False
+rag,17,correct,0,[],1,0.111,0,0,1,0.75,False,False
+rag,18,correct,0,[],0,0.211,0,0,0,1.0,False,False
+rag,19,correct,0,[],0,0.235,0,0,0,1.0,False,False
+rag,20,correct,0,[],0,0.444,0,0,0,1.0,False,False

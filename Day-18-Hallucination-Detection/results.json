@@ -1,0 +1,512 @@
+{
+  "results": {
+    "no_context": {
+      "1": {
+        "question": "What is the chemical symbol for gold?",
+        "response": "The chemical symbol for gold is Au."
+      },
+      "2": {
+        "question": "How many bones are in the adult human body?",
+        "response": "There are approximately 206 bones in an adult human body."
+      },
+      "3": {
+        "question": "What is the speed of light in vacuum in km/s (approximately)?",
+        "response": "The speed of light in a vacuum is approximately 299,792 kilometers per second."
+      },
+      "4": {
+        "question": "Which planet in our solar system has the most known moons?",
+        "response": "Jupiter is the planet in our solar system with the most known moons, having at least 79 confirmed moons as of now."
+      },
+      "5": {
+        "question": "In which year did the Berlin Wall fall?",
+        "response": "The Berlin Wall fell on November 9, 1989."
+      },
+      "6": {
+        "question": "Who was the first emperor of unified China?",
+        "response": "The first emperor of unified China was Qin Shi Huang, who ruled from 221 to 210 BCE."
+      },
+      "7": {
+        "question": "In which year did India gain independence?",
+        "response": "India gained independence from British rule on August 15, 1947."
+      },
+      "8": {
+        "question": "Who is traditionally credited as the author of the Arthashastra?",
+        "response": "The Arthashastra, an ancient Indian treatise on statecraft and administration, was traditionally attributed to Kautilya, also known as Chanakya."
+      },
+      "9": {
+        "question": "What is the capital city of Australia?",
+        "response": "The capital city of Australia is Canberra."
+      },
+      "10": {
+        "question": "Which river flows through Srinagar?",
+        "response": "The River Jhelum flows through Srinagar, Kashmir."
+      },
+      "11": {
+        "question": "What is the highest mountain in Africa?",
+        "response": "The highest mountain in Africa is Mount Kilimanjaro, located on the border between Tanzania and Kenya."
+      },
+      "12": {
+        "question": "Which lake in Srinagar is famous for its houseboats?",
+        "response": "The popular lake in Srinagar known for its houseboats is Dal Lake."
+      },
+      "13": {
+        "question": "Who created the Python programming language?",
+        "response": "Python was created by Guido van Rossum in 1989 while he was at CWI in the Netherlands."
+      },
+      "14": {
+        "question": "In which year was the paper 'Attention Is All You Need' published?",
+        "response": "The paper \"Attention is All You Need\" was published in 2017."
+      },
+      "15": {
+        "question": "What does the acronym FAISS stand for?",
+        "response": "FAISS stands for \"Facebook AI Research System.\""
+      },
+      "16": {
+        "question": "How many encoder layers does the base Transformer in the original 2017 paper use?",
+        "response": "The base Transformer in the original 2017 paper uses three encoder layers."
+      },
+      "17": {
+        "question": "Who won the 1962 Nobel Prize in Physics?",
+        "response": "The 1962 Nobel Prize in Physics was awarded to Ralph A. Cahn and Walter Kohn for their development of density functional theory, which is used to calculate the electronic structure of many-body systems without solving the full many-body problem."
+      },
+      "18": {
+        "question": "What is the atomic number of Hassium?",
+        "response": "Hassium has an atomic number of 109."
+      },
+      "19": {
+        "question": "In which year was the University of Kashmir established?",
+        "response": "The University of Kashmir was established in 1973."
+      },
+      "20": {
+        "question": "Who are the authors of the paper 'Distilling the Knowledge in a Neural Network'?",
+        "response": "The authors of \"Distilling the Knowledge in a Neural Network\" are Ian Goodfellow, Yoshua Bengio, and Aaron Courville."
+      }
+    },
+    "rag": {
+      "1": {
+        "question": "What is the chemical symbol for gold?",
+        "response": "The chemical symbol for gold is Au [doc1].",
+        "chunks": [
+          {
+            "doc_id": "doc1",
+            "text": "What is the chemical symbol for gold? Answer: Au.",
+            "score": 0.8938866853713989
+          },
+          {
+            "doc_id": "doc18",
+            "text": "What is the atomic number of Hassium? Answer: 108.",
+            "score": 0.22857491672039032
+          },
+          {
+            "doc_id": "doc8",
+            "text": "Who is traditionally credited as the author of the Arthashastra? Answer: Kautilya (Chanakya).",
+            "score": 0.1568031758069992
+          }
+        ]
+      },
+      "2": {
+        "question": "How many bones are in the adult human body?",
+        "response": "There are 206 bones in the adult human body [doc2].",
+        "chunks": [
+          {
+            "doc_id": "doc2",
+            "text": "How many bones are in the adult human body? Answer: 206.",
+            "score": 0.8595433235168457
+          },
+          {
+            "doc_id": "doc18",
+            "text": "What is the atomic number of Hassium? Answer: 108.",
+            "score": 0.22458991408348083
+          },
+          {
+            "doc_id": "doc16",
+            "text": "How many encoder layers does the base Transformer in the original 2017 paper use? Answer: 6.",
+            "score": 0.1941392719745636
+          }
+        ]
+      },
+      "3": {
+        "question": "What is the speed of light in vacuum in km/s (approximately)?",
+        "response": "The speed of light in vacuum is approximately 299,792 km/s [doc3].",
+        "chunks": [
+          {
+            "doc_id": "doc3",
+            "text": "What is the speed of light in vacuum in km/s (approximately)? Answer: about 299,792 km/s.",
+            "score": 0.9124323129653931
+          },
+          {
+            "doc_id": "doc18",
+            "text": "What is the atomic number of Hassium? Answer: 108.",
+            "score": 0.19355612993240356
+          },
+          {
+            "doc_id": "doc17",
+            "text": "Who won the 1962 Nobel Prize in Physics? Answer: Lev Landau.",
+            "score": 0.14619146287441254
+          }
+        ]
+      },
+      "4": {
+        "question": "Which planet in our solar system has the most known moons?",
+        "response": "Saturn [doc4].",
+        "chunks": [
+          {
+            "doc_id": "doc4",
+            "text": "Which planet in our solar system has the most known moons? Answer: Saturn.",
+            "score": 0.9214953184127808
+          },
+          {
+            "doc_id": "doc8",
+            "text": "Who is traditionally credited as the author of the Arthashastra? Answer: Kautilya (Chanakya).",
+            "score": 0.20323684811592102
+          },
+          {
+            "doc_id": "doc9",
+            "text": "What is the capital city of Australia? Answer: Canberra.",
+            "score": 0.19533519446849823
+          }
+        ]
+      },
+      "5": {
+        "question": "In which year did the Berlin Wall fall?",
+        "response": "The Berlin Wall fell in 1989 [doc5].",
+        "chunks": [
+          {
+            "doc_id": "doc5",
+            "text": "In which year did the Berlin Wall fall? Answer: 1989.",
+            "score": 0.8853161334991455
+          },
+          {
+            "doc_id": "doc100",
+            "text": "The Great Wall of China is over 13,000 miles long including all its branches.",
+            "score": 0.3095780611038208
+          },
+          {
+            "doc_id": "doc7",
+            "text": "In which year did India gain independence? Answer: 1947.",
+            "score": 0.1703355610370636
+          }
+        ]
+      },
+      "6": {
+        "question": "Who was the first emperor of unified China?",
+        "response": "Qin Shi Huang [doc6].",
+        "chunks": [
+          {
+            "doc_id": "doc6",
+            "text": "Who was the first emperor of unified China? Answer: Qin Shi Huang.",
+            "score": 0.8679625988006592
+          },
+          {
+            "doc_id": "doc103",
+            "text": "The Mughal emperor Akbar ruled from 1556 to 1605.",
+            "score": 0.2840755581855774
+          },
+          {
+            "doc_id": "doc100",
+            "text": "The Great Wall of China is over 13,000 miles long including all its branches.",
+            "score": 0.2822493612766266
+          }
+        ]
+      },
+      "7": {
+        "question": "In which year did India gain independence?",
+        "response": "India gained independence in 1947 [doc7].",
+        "chunks": [
+          {
+            "doc_id": "doc7",
+            "text": "In which year did India gain independence? Answer: 1947.",
+            "score": 0.8961499929428101
+          },
+          {
+            "doc_id": "doc19",
+            "text": "In which year was the University of Kashmir established? Answer: 1948.",
+            "score": 0.4012656807899475
+          },
+          {
+            "doc_id": "doc103",
+            "text": "The Mughal emperor Akbar ruled from 1556 to 1605.",
+            "score": 0.33141499757766724
+          }
+        ]
+      },
+      "8": {
+        "question": "Who is traditionally credited as the author of the Arthashastra?",
+        "response": "The traditional author of the Arthashastra is Kautilya (Chanakya). [doc8]",
+        "chunks": [
+          {
+            "doc_id": "doc8",
+            "text": "Who is traditionally credited as the author of the Arthashastra? Answer: Kautilya (Chanakya).",
+            "score": 0.8258514404296875
+          },
+          {
+            "doc_id": "doc20",
+            "text": "Who are the authors of the paper 'Distilling the Knowledge in a Neural Network'? Answer: Geoffrey Hinton, Oriol Vinyals, Jeff Dean.",
+            "score": 0.19723832607269287
+          },
+          {
+            "doc_id": "doc1",
+            "text": "What is the chemical symbol for gold? Answer: Au.",
+            "score": 0.1926383078098297
+          }
+        ]
+      },
+      "9": {
+        "question": "What is the capital city of Australia?",
+        "response": "Canberra [doc9].",
+        "chunks": [
+          {
+            "doc_id": "doc9",
+            "text": "What is the capital city of Australia? Answer: Canberra.",
+            "score": 0.8620980978012085
+          },
+          {
+            "doc_id": "doc107",
+            "text": "Sydney is the largest city of Australia by population.",
+            "score": 0.6691813468933105
+          },
+          {
+            "doc_id": "doc1",
+            "text": "What is the chemical symbol for gold? Answer: Au.",
+            "score": 0.28979647159576416
+          }
+        ]
+      },
+      "10": {
+        "question": "Which river flows through Srinagar?",
+        "response": "The Jhelum River flows through Srinagar [doc10].",
+        "chunks": [
+          {
+            "doc_id": "doc10",
+            "text": "Which river flows through Srinagar? Answer: Jhelum.",
+            "score": 0.8744455575942993
+          },
+          {
+            "doc_id": "doc108",
+            "text": "The Ganga is the longest river flowing within India.",
+            "score": 0.6118451952934265
+          },
+          {
+            "doc_id": "doc12",
+            "text": "Which lake in Srinagar is famous for its houseboats? Answer: Dal Lake.",
+            "score": 0.6000452637672424
+          }
+        ]
+      },
+      "11": {
+        "question": "What is the highest mountain in Africa?",
+        "response": "The highest mountain in Africa is Mount Kilimanjaro [doc11].",
+        "chunks": [
+          {
+            "doc_id": "doc11",
+            "text": "What is the highest mountain in Africa? Answer: Mount Kilimanjaro.",
+            "score": 0.8037354946136475
+          },
+          {
+            "doc_id": "doc101",
+            "text": "Mount Everest, at 8,849 metres, is the highest mountain above sea level.",
+            "score": 0.618805468082428
+          },
+          {
+            "doc_id": "doc105",
+            "text": "The Amazon is the largest rainforest in the world by area.",
+            "score": 0.29172074794769287
+          }
+        ]
+      },
+      "12": {
+        "question": "Which lake in Srinagar is famous for its houseboats?",
+        "response": "Dal Lake [doc12].",
+        "chunks": [
+          {
+            "doc_id": "doc12",
+            "text": "Which lake in Srinagar is famous for its houseboats? Answer: Dal Lake.",
+            "score": 0.9027124047279358
+          },
+          {
+            "doc_id": "doc10",
+            "text": "Which river flows through Srinagar? Answer: Jhelum.",
+            "score": 0.5901235938072205
+          },
+          {
+            "doc_id": "doc108",
+            "text": "The Ganga is the longest river flowing within India.",
+            "score": 0.36637574434280396
+          }
+        ]
+      },
+      "13": {
+        "question": "Who created the Python programming language?",
+        "response": "Guido van Rossum [doc13]",
+        "chunks": [
+          {
+            "doc_id": "doc13",
+            "text": "Who created the Python programming language? Answer: Guido van Rossum.",
+            "score": 0.9005429744720459
+          },
+          {
+            "doc_id": "doc104",
+            "text": "Java was created by James Gosling at Sun Microsystems.",
+            "score": 0.35733410716056824
+          },
+          {
+            "doc_id": "doc6",
+            "text": "Who was the first emperor of unified China? Answer: Qin Shi Huang.",
+            "score": 0.22916756570339203
+          }
+        ]
+      },
+      "14": {
+        "question": "In which year was the paper 'Attention Is All You Need' published?",
+        "response": "The paper 'Attention Is All You Need' was published in 2017. [doc14]",
+        "chunks": [
+          {
+            "doc_id": "doc14",
+            "text": "In which year was the paper 'Attention Is All You Need' published? Answer: 2017.",
+            "score": 0.9592208862304688
+          },
+          {
+            "doc_id": "doc20",
+            "text": "Who are the authors of the paper 'Distilling the Knowledge in a Neural Network'? Answer: Geoffrey Hinton, Oriol Vinyals, Jeff Dean.",
+            "score": 0.29610687494277954
+          },
+          {
+            "doc_id": "doc15",
+            "text": "What does the acronym FAISS stand for? Answer: Facebook AI Similarity Search.",
+            "score": 0.1846882700920105
+          }
+        ]
+      },
+      "15": {
+        "question": "What does the acronym FAISS stand for?",
+        "response": "FAISS stands for Facebook AI Similarity Search [doc15].",
+        "chunks": [
+          {
+            "doc_id": "doc15",
+            "text": "What does the acronym FAISS stand for? Answer: Facebook AI Similarity Search.",
+            "score": 0.6846870183944702
+          },
+          {
+            "doc_id": "doc1",
+            "text": "What is the chemical symbol for gold? Answer: Au.",
+            "score": 0.27067723870277405
+          },
+          {
+            "doc_id": "doc103",
+            "text": "The Mughal emperor Akbar ruled from 1556 to 1605.",
+            "score": 0.1607849895954132
+          }
+        ]
+      },
+      "16": {
+        "question": "How many encoder layers does the base Transformer in the original 2017 paper use?",
+        "response": "The base Transformer in the original 2017 paper uses 6 encoder layers. [doc16]",
+        "chunks": [
+          {
+            "doc_id": "doc16",
+            "text": "How many encoder layers does the base Transformer in the original 2017 paper use? Answer: 6.",
+            "score": 0.9652304649353027
+          },
+          {
+            "doc_id": "doc20",
+            "text": "Who are the authors of the paper 'Distilling the Knowledge in a Neural Network'? Answer: Geoffrey Hinton, Oriol Vinyals, Jeff Dean.",
+            "score": 0.26713132858276367
+          },
+          {
+            "doc_id": "doc14",
+            "text": "In which year was the paper 'Attention Is All You Need' published? Answer: 2017.",
+            "score": 0.24004656076431274
+          }
+        ]
+      },
+      "17": {
+        "question": "Who won the 1962 Nobel Prize in Physics?",
+        "response": "Lev Landau [doc17].",
+        "chunks": [
+          {
+            "doc_id": "doc17",
+            "text": "Who won the 1962 Nobel Prize in Physics? Answer: Lev Landau.",
+            "score": 0.8280432224273682
+          },
+          {
+            "doc_id": "doc106",
+            "text": "The Nobel Prizes are awarded annually in Stockholm and Oslo.",
+            "score": 0.48964399099349976
+          },
+          {
+            "doc_id": "doc1",
+            "text": "What is the chemical symbol for gold? Answer: Au.",
+            "score": 0.27894657850265503
+          }
+        ]
+      },
+      "18": {
+        "question": "What is the atomic number of Hassium?",
+        "response": "The atomic number of Hassium is 108 [doc18].",
+        "chunks": [
+          {
+            "doc_id": "doc18",
+            "text": "What is the atomic number of Hassium? Answer: 108.",
+            "score": 0.8890496492385864
+          },
+          {
+            "doc_id": "doc1",
+            "text": "What is the chemical symbol for gold? Answer: Au.",
+            "score": 0.34208035469055176
+          },
+          {
+            "doc_id": "doc4",
+            "text": "Which planet in our solar system has the most known moons? Answer: Saturn.",
+            "score": 0.23184512555599213
+          }
+        ]
+      },
+      "19": {
+        "question": "In which year was the University of Kashmir established?",
+        "response": "The University of Kashmir was established in 1948 [doc19].",
+        "chunks": [
+          {
+            "doc_id": "doc19",
+            "text": "In which year was the University of Kashmir established? Answer: 1948.",
+            "score": 0.8950287103652954
+          },
+          {
+            "doc_id": "doc7",
+            "text": "In which year did India gain independence? Answer: 1947.",
+            "score": 0.3451913595199585
+          },
+          {
+            "doc_id": "doc10",
+            "text": "Which river flows through Srinagar? Answer: Jhelum.",
+            "score": 0.307028591632843
+          }
+        ]
+      },
+      "20": {
+        "question": "Who are the authors of the paper 'Distilling the Knowledge in a Neural Network'?",
+        "response": "The authors of the paper 'Distilling the Knowledge in a Neural Network' are Geoffrey Hinton, Oriol Vinyals, and Jeff Dean [doc20].",
+        "chunks": [
+          {
+            "doc_id": "doc20",
+            "text": "Who are the authors of the paper 'Distilling the Knowledge in a Neural Network'? Answer: Geoffrey Hinton, Oriol Vinyals, Jeff Dean.",
+            "score": 0.9757996797561646
+          },
+          {
+            "doc_id": "doc17",
+            "text": "Who won the 1962 Nobel Prize in Physics? Answer: Lev Landau.",
+            "score": 0.350279301404953
+          },
+          {
+            "doc_id": "doc109",
+            "text": "Convolutional neural networks are widely used for image tasks.",
+            "score": 0.31962496042251587
+          }
+        ]
+      }
+    }
+  },
+  "rates": {
+    "no_context": 35.0,
+    "rag": 0.0
+  }
+}
