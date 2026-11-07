@@ -1,0 +1,60 @@
+{
+  "versions": {
+    "v0_baseline": {
+      "score": 3.5,
+      "change": "Plain prompt: answer using the context"
+    },
+    "v1_role": {
+      "score": 3.75,
+      "change": "Added role: precise Veridia Labs support assistant"
+    },
+    "v2_format": {
+      "score": 4.85,
+      "change": "Added output format: one sentence starting with 'Answer:'"
+    },
+    "v3_cot": {
+      "score": 4.55,
+      "change": "Added chain-of-thought: think step by step, answer on last line"
+    },
+    "v4_fewshot": {
+      "score": 3.55,
+      "change": "Added 2 few-shot examples (Orbit Cafe)"
+    },
+    "v5_negative": {
+      "score": 4.45,
+      "change": "Added negative constraints: no guessing, no outside knowledge"
+    }
+  },
+  "isolated": {
+    "role": {
+      "acc": 5.0,
+      "fmt": 2.5,
+      "overall": 3.75
+    },
+    "format": {
+      "acc": 4.8,
+      "fmt": 4.9,
+      "overall": 4.85
+    },
+    "cot": {
+      "acc": 4.8,
+      "fmt": 1.0,
+      "overall": 2.9
+    },
+    "fewshot": {
+      "acc": 4.8,
+      "fmt": 2.7,
+      "overall": 3.75
+    },
+    "negative": {
+      "acc": 4.8,
+      "fmt": 2.9,
+      "overall": 3.8499999999999996
+    }
+  },
+  "baseline": {
+    "avg_acc": 4.6,
+    "avg_fmt": 2.4,
+    "avg": 3.5
+  }
+}
