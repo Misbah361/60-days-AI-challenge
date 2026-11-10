@@ -1,0 +1,7 @@
+Dimension,Score,Status,Main finding
+Accuracy,9/10,PASS,"1 false refusal (release 3.0, score 0.258 < 0.3 gate)"
+Latency,0.69 s avg,PASS,LLM = 98.9% of time; slowest query 1.39 s
+Reliability,8/10 (auto 10/10),PARTIAL,typos/empty input fine; 2 one-word answers led with marketing text
+Transparency,0/10,FAIL,chunk IDs unreadable; 3 sources listed; sources attached to a 'no info' answer
+Graceful degradation,5/5 honest,PARTIAL,"honest, but inconsistent wording, no next step, bogus Sources line"
+User-style queries,"7/10 acceptable, 4/10 clean",PARTIAL,"wrong 'no phone support', marketing over-claim, outdated info leaked"

@@ -1,0 +1,11 @@
+query,pass,answer
+What is the refund window?,True,"The refund window for Veridia Labs' products is typically within 30 days from the purchase date. However, annual plans are refunded pro-rata after this period."
+How much does the Starter plan cost?,True,The current cost of the Starter plan according to the latest version is $19 per month.
+Which encryption standard protects stored data?,True,Veridia Labs uses AES-256 for protecting stored data.
+How many requests per minute can Enterprise make?,True,Enterprise can make up to 5000 requests per minute according to the rules provided in the context.
+Do Enterprise customers get phone support?,True,"Yes, Enterprise customers get 24/7 phone support."
+How many days a week can staff work remotely?,True,Employees may work remotely up to 3 days per week according to the remote work policy.
+What did release 4.2 add?,True,Release 4.2 added single sign-on via SAML and a dark mode dashboard.
+What did release 3.0 launch?,False,I don't have enough information in my knowledge base to answer that.
+Is TLS 1.2 still used for data in transit?,True,"No, TLS 1.2 is not used for data in transit anymore. The latest version mentioned in the context is TLS 1.3."
+How long until deleted data leaves the backups?,True,Deleted customer data is permanently purged from backups within 90 days.

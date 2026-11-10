@@ -1,0 +1,24 @@
+query,answer,top_score,refused,auto_check,sources,manual_ok,clean
+"hey so i bought the annual thing last week and changed my mind, can i get my money back or nah?","Yes, you can get your money back as long as you initiate the refund request within 30 days of purchase.",0.467,False,True,"['doc1-0', 'doc20-0', 'doc2-0']",True,True
+how much is it,"The cost of the service depends on the plan you choose:
+
+- **Starter**: Costs $19 per month.
+- **Pro**: Costs $49 per month.
+- **Enterprise**: Is custom and not specified in this version's document.",0.383,False,,"['doc4-0', 'doc3-0', 'doc15-0']",True,True
+"Hi there, I'm trying to understand whether or not our team members are allowed to do their work from home at all, and if so how often that would be permitted per week?","According to the remote work policy mentioned in doc17-0, employees may work remotely up to 3 days per week. However, this policy does not specify any restrictions on working from home beyond these limits. The maximum number of days an employee can work remotely each week is three days.",0.583,False,True,"['doc17-0', 'doc9-0', 'doc12-0']",True,False
+is my stuff safe,"Yes, your stuff is safe with Veridia Labs. The bank-grade security measures ensure data safety, while billing security ensures that card details are tokenized and not stored on their servers. Additionally, data retention policies guarantee that deleted customer data is permanently purged from backups within 90 days.",0.378,False,False,"['doc7-0', 'doc8-0', 'doc21-0']",False,False
+my api keeps giving me an error when i send lots of requests,"The Veridia Labs API has a rate limit of 1000 requests per minute on the Pro plan and 5000 requests per minute on the Enterprise plan. If you exceed these limits, your request will return an HTTP 429 error. The data is encrypted both at rest and in transit using AES-128 and TLS 1.2 respectively.",0.518,False,True,"['doc12-0', 'doc14-0', 'doc6-0']",True,False
+do u guys have a phone number i can call at midnight,"No, we do not have a phone number available for calling at midnight. However, our friendly support team is always ready to assist you during their supported hours of operation.",0.364,False,False,"['doc9-0', 'doc15-0', 'doc11-0']",False,False
+whats new in the latest version,"The latest version, Release 4.2 (2025), introduced single sign-on via SAML and a dark mode dashboard.",0.361,False,True,"['doc15-0', 'doc14-0', 'doc16-0']",True,True
+can i pay by card and is it secure,"Yes, you can pay by card, and Veridia Labs ensures bank-grade security through measures such as tokenisation of card details by their payment processor and the storage of these details not on their servers. This approach helps keep your data safe.",0.52,False,True,"['doc21-0', 'doc20-0', 'doc7-0']",True,False
+pricing pls,"The current pricing structure at Veridia Labs includes:
+- Starter plan: $19 per month
+- Pro plan: $49 per month
+- Enterprise plan: Customized
+
+Support hours are as follows:
+- Monday to Friday, from 10am to 5pm IST
+- Email support only
+
+For more detailed information, please refer to the latest pricing and support FAQ documents.",0.421,False,True,"['doc4-0', 'doc3-0', 'doc10-0']",False,False
+"i deleted my account yesterday, when is my data actually gone?",Your data will be permanently purged from backups within 90 days of deletion.,0.59,False,True,"['doc8-0', 'doc10-0', 'doc16-0']",True,True

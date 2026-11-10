@@ -1,0 +1,6 @@
+query,refused,top_score,caught_by,answer
+What is the weather like in Srinagar today?,True,0.134,gate (score < 0.3),I don't have enough information in my knowledge base to answer that.
+Who won the last cricket World Cup?,True,0.136,gate (score < 0.3),I don't have enough information in my knowledge base to answer that.
+How do I bake a chocolate cake?,True,0.051,gate (score < 0.3),I don't have enough information in my knowledge base to answer that.
+Explain how photosynthesis works.,True,0.045,gate (score < 0.3),I don't have enough information in my knowledge base to answer that.
+What is Veridia Labs' parental leave policy?,False,0.507,NOT CAUGHT,Veridia Labs does not provide specific details about their parental leave policy in the given context.

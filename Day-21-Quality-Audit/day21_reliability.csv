@@ -1,0 +1,11 @@
+query,pass,answer,manual_ok
+refnd policy how many dayz,True,The current refund policy at Veridia Labs allows customers to request a refund within 30 days of purchase.,True
+HOW LONG TO GET MY MONEY BACK???,True,"According to the refund policy (2024), customers can request a refund within 30 days of purchase. For annual plans, refunds will be pro-rated after 30 days.",True
+refund,True,"Veridia Labs provides flexible plans with generous refund guarantees, allowing customers to return unused services risk-free. For annual plans purchased before March 2024, refunds are pro-rated after 30 days from the purchase date. Refunds are typically sent back to the original payment method and should be received within 5 business days.",False
+can i work from home,True,"Yes, you can work from home up to 3 days per week according to the remote work policy.",True
+pro plan rate limit,True,The Pro plan has a rate limit of 1000 requests per minute.,True
+tell me how veridia protects data at rest encryption,True,Veridia Labs uses AES-256 encryption to protect data at rest.,True
+support hours?,True,"The support hours are Monday to Friday, from 9am to 6pm IST.",True
+   how much is pro   ,True,The current price for the Pro plan according to the latest document is $49 per month.,True
+refund window 😀,True,"Veridia Labs provides a generous refund guarantee where customers can request a refund within 30 days of purchase. For annual plans, refunds are pro-rated after 30 days. Refunds are typically sent back to the original payment method and should arrive within 5 business days.",False
+,True,I don't have enough information in my knowledge base to answer that.,True

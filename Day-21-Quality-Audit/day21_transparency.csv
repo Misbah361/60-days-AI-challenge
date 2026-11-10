@@ -1,0 +1,11 @@
+query,has_citation,right_source_listed,readable,sources_listed,has_date,transparent
+What is the refund window?,True,True,False,3,True,False
+How much does the Starter plan cost?,True,True,False,3,True,False
+Which encryption standard protects stored data?,True,True,False,3,True,False
+How many requests per minute can Enterprise make?,True,True,False,3,True,False
+Do Enterprise customers get phone support?,True,True,False,3,True,False
+How many days a week can staff work remotely?,True,True,False,3,True,False
+What did release 4.2 add?,True,True,False,3,False,False
+How long until deleted data leaves the backups?,True,True,False,3,True,False
+What TLS version is used for data in transit?,True,True,False,3,True,False
+How long does a refund take to reach my card?,True,True,False,3,True,False
